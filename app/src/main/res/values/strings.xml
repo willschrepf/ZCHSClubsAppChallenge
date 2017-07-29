@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ZCHS Clubs</string>
+    <string name="app_name_1">ZCHS Clubs - Catalogue</string>
+    <string name="app_name_2">ZCHS Clubs - Quiz Results</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Q1">This is Question 1</string>
+    <string name="Q2">This is Question 2</string>
+    <string name="Q3">This is Question 3</string>
+    <string name="Q4">This is Question 4</string>
+    <string name="Q5">This is Question 5</string>
+    <string name="Q6">This is Question 6</string>
+    <string name="Q7">This is Question 7</string>
+    <string name="Q8">This is Question 8</string>
+    <string name="Q9">This is Question 9</string>
+    <string name="Q10">This is Question 10</string>
+
+
+    <string name = "About">There are so many clubs at ZCHS- with so many options, it\'s hard to narrow it down to just a few!
+        With the ClubFinder Quiz, you can easily find the clubs that are right for you by answering a few simple questions.
+        And if you still haven\'t found what you\'re looking for, use the Club Catalogue to find detailed information including club
+        descriptions, meeting dates, fees, and more.</string>
+
+    <string name = "SampleClubInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum sed urna vel sodales.
+        Praesent elementum velit augue, nec venenatis diam convallis id. Maecenas posuere, tellus sed viverra condimentum,
+        est felis lacinia neque, tristique interdum velit lectus vitae ipsum. Duis et massa ullamcorper, lacinia eros sit amet,
+        efficitur augue. Curabitur dolor urna, aliquet id nunc nec, cursus tincidunt ante. Vivamus congue metus egestas velit
+        congue tincidunt. Nam in ligula eu nisi dictum sodales. Integer et odio maximus, scelerisque lorem ut, egestas mauris. In
+        hac habitasse platea dictumst. </string>
+
+
+    <string name = "ResultsIntro">Here are your results! Scroll through the list below and click on a club to see more detailed
+    information about it. And if these results don\'t seem quite right, you can go back and retake the quiz, or view all of ZCHS\'s
+    clubs in the Club Catalogue.</string>
+
+
+</resources>
