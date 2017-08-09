@@ -11,26 +11,42 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/clubinformation"
+            android:id="@+id/startList"
             android:layout_width="0dp"
-            android:layout_height="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/SampleClubInfo"
+            android:text="Scroll through the list and click on a club to see more information!"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/clublist"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@+id/clubinformation"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/clubinformation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="14sp"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/clublist"
-            app:layout_constraintVertical_bias="0.517" />
+            app:layout_constraintBottom_toTopOf="@+id/clublist" />
 
         <ListView
             android:id="@+id/clublist"
             android:layout_width="0dp"
-            android:layout_height="250dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="225dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             app:layout_constraintBottom_toBottomOf="parent"

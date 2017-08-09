@@ -7,7 +7,7 @@
     tools:context="com.example.wills.zchsclubs.MainActivity">
 
     <TextView
-        android:id="@+id/textView4a"
+        android:id="@+id/textView8a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -17,14 +17,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4b"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView8b"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
-        android:text="This is Question 4"
+        android:text="@string/Q8"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4a" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8a" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -32,40 +32,48 @@
         android:layout_marginLeft="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView4b"
-        android:id="@+id/radioGroup4">
+        app:layout_constraintTop_toBottomOf="@+id/textView8b"
+        android:id="@+id/radioGroup8">
 
         <RadioButton
             android:id="@+id/q4o1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="A"
-            android:onClick="onRadioButtonClicked4"/>
+            android:onClick="onRadioButtonClicked4"
+            android:text="Helping other students" />
 
         <RadioButton
             android:id="@+id/q4o2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="B"
-            android:onClick="onRadioButtonClicked4"/>
+            android:onClick="onRadioButtonClicked4"
+            android:text="Community service" />
 
         <RadioButton
             android:id="@+id/q4o3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="C"
-            android:onClick="onRadioButtonClicked4"/>
+            android:onClick="onRadioButtonClicked4"
+            android:text="School publications" />
 
         <RadioButton
             android:id="@+id/q4o4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="D"
-            android:onClick="onRadioButtonClicked4"/>
+            android:onClick="onRadioButtonClicked4"
+            android:text="Planning school dances and activites" />
+
+        <RadioButton
+            android:id="@+id/q4o5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked4"
+            android:text="None of the above" />
 
     </RadioGroup>
 
@@ -73,23 +81,27 @@
         android:id="@+id/next4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="75dp"
         android:layout_marginTop="0dp"
         android:elevation="0dp"
         android:onClick="onClick4"
         android:text="Next"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup4"
-        android:layout_marginRight="75dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup8" />
 
     <Button
         android:id="@+id/back4"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
-        android:text="Back"
+        android:layout_marginLeft="75dp"
         android:layout_marginTop="0dp"
         android:onClick="revOnClick4"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup4"
-        android:layout_marginLeft="75dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:text="Back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup8" />
 
 </android.support.constraint.ConstraintLayout>
+
+
+
+

@@ -9,22 +9,18 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="Q1">This is Question 1</string>
-    <string name="Q2">This is Question 2</string>
-    <string name="Q3">This is Question 3</string>
-    <string name="Q4">This is Question 4</string>
-    <string name="Q5">This is Question 5</string>
-    <string name="Q6">This is Question 6</string>
-    <string name="Q7">This is Question 7</string>
-    <string name="Q8">This is Question 8</string>
-    <string name="Q9">This is Question 9</string>
-    <string name="Q10">This is Question 10</string>
+    <string name="Q1">What grade are you in?</string>
+    <string name="Q2">Are there any days of the week when you are absolutely NOT free?</string>
+    <string name="Q3">Some clubs require extra fees- are you OK with clubs that have these extra costs?</string>
+    <string name="Q4">Some clubs take place during a particular season- are there any seasons where you are NOT free?</string>
+    <string name="Q5">Which of the following artistic pursuits interests you most?</string>
+    <string name="Q6">Are you interested in doing anything athletic? If so, which of the following sounds most appealing to you?</string>
+    <string name="Q7">Which of these political/social issues are you passionate about?</string>
+    <string name="Q8">Which of the following school-related activities interests you?</string>
+    <string name="Q9">Which academic field are you most interested in?</string>
 
 
-    <string name = "About">There are so many clubs at ZCHS- with so many options, it\'s hard to narrow it down to just a few!
-        With the ClubFinder Quiz, you can easily find the clubs that are right for you by answering a few simple questions.
-        And if you still haven\'t found what you\'re looking for, use the Club Catalogue to find detailed information including club
-        descriptions, meeting dates, fees, and more.</string>
+    <string name = "About">Welcome to the ZCHS Clubs App! Take the ClubFinder Quiz to find the clubs that are right for you by answering a few simple questions, or view all of ZCHS\'s clubs in the Club Catalogue.</string>
 
     <string name = "SampleClubInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum sed urna vel sodales.
         Praesent elementum velit augue, nec venenatis diam convallis id. Maecenas posuere, tellus sed viverra condimentum,
@@ -35,7 +31,7 @@
 
 
     <string name = "ResultsIntro">Here are your results! Scroll through the list below and click on a club to see more detailed
-    information about it. And if these results don\'t seem quite right, you can go back and retake the quiz, or view all of ZCHS\'s
+    information about it. And if you feel like these clubs aren\'t perfect matches for you, you can go back and retake the quiz, or view all of ZCHS\'s
     clubs in the Club Catalogue.</string>
 
 
