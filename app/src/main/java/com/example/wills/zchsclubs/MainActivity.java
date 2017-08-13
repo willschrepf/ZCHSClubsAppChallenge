@@ -1,6 +1,5 @@
 package com.example.wills.zchsclubs;
 
-import android.graphics.Movie;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 
@@ -16,14 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.RadioButton;
-import android.widget.TextView;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 
 import static com.example.wills.zchsclubs.UtilityVars.IMSoccer;
 
@@ -734,6 +726,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     uv.IMSoccer = false;
                     uv.IMBasketball = false;
                     uv.ArtClub = false;
+                    uv.ThreeDPrintingClub = false;
                     uv.ModelUN = false;
                     break;
                 }
@@ -995,17 +988,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragmentManager.beginTransaction()
                         .replace(R.id.content_frame
                                 , new Question8())
-                        .commit();
-        }
-    }
-    public void revOnClickFL(View view){
-        FragmentManager fragmentManager = getFragmentManager();
-
-        switch (view.getId()) {
-            case R.id.backFL:
-                fragmentManager.beginTransaction()
-                        .replace(R.id.content_frame
-                                , new foreinlang())
                         .commit();
         }
     }

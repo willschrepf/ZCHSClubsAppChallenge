@@ -45,7 +45,7 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
 
 
         if(uv.ThreeDPrintingClub){
-            myData.add("3D Printing Club");
+            myData.add("The 3D Printing Club is open to all students interested in 3D printing! There is a $10 fee for materials and access to the printer. See Mr. Mulholland for more information.");
         }if(uv.AnimalRightsClub){
             myData.add("Animal Rights Club");
         }if(uv.AnimeMangaClub){
@@ -149,8 +149,6 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
             myData.add("Varsity Dance Team");
         }if(uv.WinterGuard){
             myData.add("Winter Guard");
-        }if(uv.WomenInEngineering){
-            myData.add("Women in Engineering");
         }if(uv.Yearbook){
             myData.add("Yearbook");
         }if(uv.YogaClub){
@@ -236,6 +234,8 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
             myTextView.setText("The EKOM's plan the Freshman Kick Off day for all Freshmen and new students in August.  The EKOM's also have one follow-up with Freshmen early in the year to check on their progress.  In addition, some EKOM's volunteer to connect 1 on 1 with Freshman students that are struggling in one way or another.\n" +
                     " \n" +
                     "The application to become an EKOM club member occurs in the spring of the year and is open to all incoming Sophomores, Juniors, and Seniors.");
+        }if(myItemSelected == "Engineering Club") {
+            myTextView.setText("No description available, please contact Mrs. Carter for more information.");
         }if(myItemSelected == "Equal Rights Club"){
             myTextView.setText("No description available, please contact Mrs. Craven for more information.");
         }if(myItemSelected == "Fall Musical"){
@@ -273,7 +273,7 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
         }if(myItemSelected == "Movie Club"){
             myTextView.setText("No description available, please contact Mrs. Sarcona for more information.");
         }if(myItemSelected == "Mu Alpha Theta"){
-            myTextView.setText("No description available, please contact Mr. Moser for more information.");
+            myTextView.setText("Looking for a way to improve your math grades while taking part in a fun and popular math club? Mu Alpha Theta (Math) Club is a club for anyone interested in taking part in the quick, monthly International Math League as well as for anyone looking to test out their creative thinking skills in math! See Mr. Moser in Room 205 for more information.");
         }if(myItemSelected == "National Honor Society"){
             myTextView.setText("As a member of NHS, you will be required to attend monthly meetings and to accumulate a minimum of 10 service hours per semester.  If you are unwilling to do these things, please do not apply. The application process is open to sophomores and juniors only, and more details can be found on the ZCHS website.");
         }if(myItemSelected == "Nature/Adventure Club"){
@@ -322,10 +322,10 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
             myTextView.setText("No description available, please contact Mrs. Barry for more information.");
         }if(myItemSelected == "Varsity Dance Team"){
             myTextView.setText("The ZCHS Varsity Dance Team performs hip hop and pom routines at football and basketball games. The team is selected at open auditions in March and practices begin in June. The dancers also perform at parades and special events with a focus on volunteering for fundraisers like Ovarian Cancer Research, Breast Cancer Research, mentoring area youth dancers and raising money for the Marching Eagles. We only hold auditions once a year and, due to uniform and time limitations, cannot take dancers mid season. Please email the coach for specific information.");
+        }if(myItemSelected == "Volunteer Math Tutors"){
+            myTextView.setText("As a high school student, one of the best ways to give back to the Zionsville community is by volunteering your help! Serving over 140 ZCS students in its first year with free math tutoring services, the Volunteer Math Tutors club makes it easy for you to serve the community while setting up the younger generation for success in math class! As a volunteer, you will be engaged with younger students from the elementary and middle schools of ZCS.");
         }if(myItemSelected == "Winter Guard"){
             myTextView.setText("No description available, please contact Mr. Landrum for more information.");
-        }if(myItemSelected == "Women in Engineering"){
-            myTextView.setText("No description available, please contact Mrs. Carter for more information.");
         }if(myItemSelected == "Yearbook"){
             myTextView.setText("No description available, please contact Mrs. Wagner for more information.");
         }if(myItemSelected == "Yoga Club"){
@@ -343,7 +343,6 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
         }if(myItemSelected == "Zumba Club"){
             myTextView.setText("No description available at this time.");
         }
-
 
 
     }
