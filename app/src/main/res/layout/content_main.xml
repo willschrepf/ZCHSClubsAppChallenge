@@ -42,10 +42,11 @@
         android:id="@+id/Title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="ZCHS Clubs"
+        android:layout_marginTop="6dp"
+        android:text="Zionsville Clubs"
         android:textAlignment="center"
         android:textSize="29sp"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

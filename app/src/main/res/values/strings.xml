@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">ZCHS Clubs</string>
-    <string name="app_name_1">ZCHS Clubs - Catalogue</string>
-    <string name="app_name_2">ZCHS Clubs - Quiz Results</string>
+    <string name="app_name">Zionsville Clubs</string>
+    <string name="app_name_1">Zionsville Clubs - Catalogue</string>
+    <string name="app_name_2">Zionsville Clubs - Quiz Results</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

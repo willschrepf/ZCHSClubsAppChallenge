@@ -43,26 +43,34 @@ public class ListScroll extends AppCompatActivity implements AdapterView.OnItemC
         myData.add("Book Club");
         myData.add("Business Professionals of America");
         myData.add("Capernaum");
+        myData.add("Chess and Checkers");
         myData.add("Chinese Club");
         myData.add("Diversity Council");
         myData.add("Drama Club");
+        myData.add("Dungeons and Dragons");
         myData.add("Eagle Kickoff Mentors");
         myData.add("Engineering Club");
         myData.add("Equal Rights Club");
         myData.add("Fall Musical");
         myData.add("FCA");
         myData.add("Film Club");
+        myData.add("Fishing Club");
         myData.add("French Club");
         myData.add("Gay Straight Alliance");
+        myData.add("Happiness Club");
         myData.add("Harbinger");
+        myData.add("HOSA - Future Health Professionals");
         myData.add("Interact Club");
+        myData.add("International Club");
         myData.add("Intramural Soccer");
         myData.add("Intramural Volleyball");
         myData.add("Intramural Basketball");
         myData.add("Intramural Dodgeball");
-        myData.add("Investor's Club");
+        myData.add("Investors Club");
         myData.add("Key Club");
         myData.add("Les Femmes");
+        myData.add("Letters to Uganda: The Next Girl");
+        myData.add("Military Club");
         myData.add("Model UN");
         myData.add("Movie Club");
         myData.add("Mu Alpha Theta");
@@ -71,14 +79,17 @@ public class ListScroll extends AppCompatActivity implements AdapterView.OnItemC
         myData.add("Operation: Honduras");
         myData.add("Phil and Theo");
         myData.add("Ping Pong Club");
+        myData.add("Pokemon Go Club");
         myData.add("Project Green");
         myData.add("Prom Committee");
         myData.add("Psychology Club");
         myData.add("Quiz Bowl");
         myData.add("Robotics Club");
+        myData.add("Rock Climbing Club");
         myData.add("Rugby");
         myData.add("Sales, Entrepreneurship, and Leadership");
         myData.add("Science Club");
+        myData.add("Songwriting and Music Making Club");
         myData.add("Spanish Cinema");
         myData.add("Spanish Club");
         myData.add("Speech and Debate");
@@ -86,6 +97,7 @@ public class ListScroll extends AppCompatActivity implements AdapterView.OnItemC
         myData.add("Student Council");
         myData.add("Students for Life");
         myData.add("Swing Dance Club");
+        myData.add("Third World Initiative");
         myData.add("Timmy Club");
         myData.add("Tri M Music Honor Society");
         myData.add("Varsity Dance Team");
@@ -133,56 +145,68 @@ public class ListScroll extends AppCompatActivity implements AdapterView.OnItemC
         myItemSelected = (String) parent.getItemAtPosition(position).toString();
         View startList = findViewById(R.id.startList);
         startList.setVisibility(View.GONE);
-        if(myItemSelected == "3D Printing Club") {
+        if (myItemSelected == "3D Printing Club") {
             myTextView.setText("The 3D Printing Club is open to all students interested in 3D printing! There is a $10 fee for materials and access to the printer. See Mr. Mulholland for more information.");
-        }if(myItemSelected == "Animal Rights Club"){
+        }if (myItemSelected == "Animal Rights Club") {
             myTextView.setText("No description available, please contact Mrs. Carey for more information.");
-        }if(myItemSelected == "Anime and Manga Club"){
+        }if (myItemSelected == "Anime and Manga Club") {
             myTextView.setText("The Anime and Manga Club is for those who enjoy the stories and characters from Anime and Manga.  The club meets weekly on Fridays.  Students will be engaged in watching Anime, games and other activities.  All are welcome.");
-        }if(myItemSelected == "Art Club"){
+        }if (myItemSelected == "Art Club") {
             myTextView.setText("Art Club is designed for all levels of creative students.  We work with a variety of materials that students are interested in experiencing for the first time.  Students suggest future projects and plan out all of the demonstrations for the club meetings.  Art Club also loves to work outside of the classroom on community murals or props for organizations needing a little extra creativity.  Art Club meets every other Wednesday from 3:40 - 4:30. Dues are $20 which inclues a t-shirt and all supplies for the year.");
-        }if(myItemSelected == "Best Buddies"){
+        }if (myItemSelected == "Best Buddies") {
             myTextView.setText("No description available, please contact Mrs. O'Donnell or Mrs. Cohen for more information");
-        }if(myItemSelected == "Book Club"){
+        }if (myItemSelected == "Book Club") {
             myTextView.setText("The ZCHS Book Club allows students to meet with their peers in a relaxed and respectful atmosphere to discuss books and socialize. Members share viewpoints, ideas, and feelings during the book discussions. The club usually meets every other Wednesday from 3:30 - 4:30 in the high school library media center. Any student is welcome to participate, and members need not read every book or come to every meeting in order to be a part of the club. Books are selected by members, and we read about 12 books throughout the course of the school year, including adult and young adult fiction and nonfiction titles in a variety of genres. Copies are provided to members to borrow for free, courtesy of the Hussey-Mayfield Memorial Library. ");
-        }if(myItemSelected == "Business Professionals of America"){
+        }if (myItemSelected == "Business Professionals of America") {
             myTextView.setText("Business Professionals of America (BPA) is a co-curricular business club that further enhances our classes by providing students with a real-life, authentic learning environment that extends well beyond the classroom. BPA prepares students for the business world through the skills of leadership, citizenship, academic, and technology. One of the highlights of the organization are its leadership conferences, enabling students to network with both professionals and students, attend leadership workshops, and compete in events against other schools from around the area, state, and country in events based on the following business categories: Finance, Administration, Information Systems, Digital Communication, and Marketing.");
-        }if(myItemSelected == "Capernaum Club"){
+        }if (myItemSelected == "Capernaum Club") {
             myTextView.setText("No description available, please contact Mrs. Edgell for more information.");
-        }if(myItemSelected == "Chinese Club"){
+        }if(myItemSelected == "Chess and Checkers"){
+            myTextView.setText("Chess Club is a place where students can compete, learn new skills, and make new friends.");
+        }if (myItemSelected == "Chinese Club") {
             myTextView.setText("It is not necessary to be in Chinese class or know Chinese to be in Chinese Club!  We learn about the language, the culture, eat Chinese food, and participate in fun activities and Chinese games.  Everyone is welcome!  We meet on the third Wednesday of each month.");
-        }if(myItemSelected == "Chinese Honor Society"){
+        }if (myItemSelected == "Chinese Honor Society") {
             myTextView.setText("This is a club for motivated learners of the Chinese Language.  Members will be given the opportunity and expected to participate in extra-curricular competitions and Chinese cultural events.  Members will be encouraged to take active service roles within the Chinese community, and supply out-of-school academic help to those just beginning to learn the Chinese language.  To apply, you must have taken at least 3 semesters of Chinese, while maintaining above a B-average.");
-        }if(myItemSelected == "Diversity Council"){
+        }if (myItemSelected == "Diversity Council") {
             myTextView.setText("No description available, please contact Mrs. Conrad for more information.");
-        }if(myItemSelected == "Do Something Club"){
+        }if (myItemSelected == "Do Something Club") {
             myTextView.setText("No description available, please contact Mrs. Thomas for more information.");
-        }if(myItemSelected == "Drama Club"){
+        }if (myItemSelected == "Drama Club") {
             myTextView.setText("No description available, please contact Mrs. Morario for more information");
-        }if(myItemSelected == "Eagle Kickoff Mentors"){
+        }if(myItemSelected == "Dungeons and Dragons"){
+            myTextView.setText("Members meet bi-weekly to play Dungeons and Dragons.");
+        }if (myItemSelected == "Eagle Kickoff Mentors") {
             myTextView.setText("The EKOM's plan the Freshman Kick Off day for all Freshmen and new students in August.  The EKOM's also have one follow-up with Freshmen early in the year to check on their progress.  In addition, some EKOM's volunteer to connect 1 on 1 with Freshman students that are struggling in one way or another.\n" +
                     " \n" +
                     "The application to become an EKOM club member occurs in the spring of the year and is open to all incoming Sophomores, Juniors, and Seniors.");
-        }if(myItemSelected == "Engineering Club") {
+        }if (myItemSelected == "Engineering Club") {
             myTextView.setText("No description available, please contact Mrs. Carter for more information.");
-        }if(myItemSelected == "Equal Rights Club"){
+        }if (myItemSelected == "Equal Rights Club") {
             myTextView.setText("No description available, please contact Mrs. Craven for more information.");
-        }if(myItemSelected == "Fall Musical"){
+        }if (myItemSelected == "Fall Musical") {
             myTextView.setText("The fall musical is a place for students who have a love for theater. This year's show will be Les Miserables, and will be directed by Mikayla Koharchik. Students can audition for a role in the production or apply for a position on crew.");
-        }if(myItemSelected == "FCA"){
+        }if (myItemSelected == "FCA") {
             myTextView.setText("FCA presents athletes and coaches, and all whom they influence, the challenge and adventure of living out their faith through their sport and sports community, as well as provide them the opportunity to serve their team, their school, and their community. FCA meets Wednesdays from 7:30 - 7:55am in the back of the cafeteria. Please confirm meeting dates and times with club sponsor.");
-        }if(myItemSelected == "Film Club"){
+        }if (myItemSelected == "Film Club") {
             myTextView.setText("No description available, please contact Mrs. Overberg for more information.");
-        }if(myItemSelected == "French Club"){
+        }if(myItemSelected == "Fishing Club"){
+            myTextView.setText("Students will socialize, fish, and make new friends.");
+        }if (myItemSelected == "French Club") {
             myTextView.setText("The French Club is an organization that goes beyond the classroom to learn more about francophone culture.  Most students are or have been enrolled in French class but we invite all students who are interested in learning about French in the world to attend.  We meet the second Tuesday of every month after school in the LGI.  Meeting include information, music, activities, and French food.  We have a few evening outings per year too.  Please plan to join us.");
-        }if(myItemSelected == "French National Honor Society"){
+        }if (myItemSelected == "French National Honor Society") {
             myTextView.setText("There is no information for this club yet.");
-        }if(myItemSelected == "Gay Straight Alliance"){
-            myTextView.setText("No description available, please contact Mrs. Craven for more information.");
+        }if (myItemSelected == "Gay Straight Alliance") {
+            myTextView.setText("No description available, please contact Mrs. Craven for more informationThe Gay Straight Alliance Club works towards equality for LGBTQIA students, while building bonds and friendships with their straight peers.");
+        }if(myItemSelected == "Happiness Club"){
+            myTextView.setText("The goal of this club is to provide activities, practices, and strategies to reduce stress, increase happiness, and improve overall mental health. We will do fun group activities, community and school service, and work to keep the atmosphere at ZCHS a positive one!");
         }if(myItemSelected == "Harbinger"){
             myTextView.setText("The Harbinger is a student-run publication that produces a magazine, a website, and the Friday Morning Announcements. Prerequisites include Journalism 1 or Mass Media.");
+        }if(myItemSelected == "HOSA - Future Health Professionals"){
+            myTextView.setText("HOSA is an organization serving those seeking to become health professionals in the medical field.");
         }if(myItemSelected == "Interact Club"){
             myTextView.setText("Interact Club is an international service club that works with the local Rotary Club.  They raise money and collect items for non-profits locally and all over the world.");
+        }if(myItemSelected == "International Club"){
+            myTextView.setText("A place for foreign exchange students to connect with ZCHS students and share world experiences.");
         }if(myItemSelected == "Intramural Soccer"){
             myTextView.setText("Intramurals are a fun way to stay active and play sports! The IM soccer season is in the fall, and there is a $20 fee.");
         }if(myItemSelected == "Intramural Volleyball"){
@@ -191,16 +215,20 @@ public class ListScroll extends AppCompatActivity implements AdapterView.OnItemC
             myTextView.setText("Intramurals are a fun way to stay active and play sports! The IM basketball season is in the winter, and there is a $20 fee.");
         }if(myItemSelected == "Intramural Dodgeball"){
             myTextView.setText("Intramurals are a fun way to stay active and play sports! The IM dodgeball season is in the spring, and there is a $20 fee.");
-        }if(myItemSelected == "Investor's Club"){
+        }if(myItemSelected == "Investors Club"){
             myTextView.setText("No description available, please contact Mr. Moser for more information.");
+        }if(myItemSelected == "Letters to Uganda: The Next Girl"){
+            myTextView.setText("A club for students to become pen-pals with girls in Uganda and provide emotional support.");
         }if(myItemSelected == "Key Club"){
             myTextView.setText("Key Club is a community service organization that is an extension of Kiwanis International.  Key Club meets 2 times a month. They raise money for UNICEF, have a blood drive each year, and volunteer for other service projects in the community throughout the school year.  Meetings are Thursday mornings at 7:40 AM in the main campus LGI.  Please confirm specific meeting dates and times with the club sponsor.");
         }if(myItemSelected == "Les Femmes"){
             myTextView.setText("Les Femmes is Zionsville's Women's Studies Club. Members discuss current issues affecting women both locally and globally, as well as funding loans to women entrepreneurs through Kiva microfinance program and supporting the Julian Center for victims of domestic abuse.");
+        }if(myItemSelected == "Military Club"){
+            myTextView.setText("A club for students with any interest in the military to talk about their interest and to meet other studetns with the same interest.");
         }if(myItemSelected == "Model UN"){
             myTextView.setText("In the Model UN club, students role-play various countries in the world.  They learn about the history, politics, and foreign policies of several countries and begin to understand the importance of the United Nations in the world today.  Students become familiar with several international problems or issues and experience the give and take of diplomacy as they attempt to pass resolutions in their councils.  The model provides an opportunity for them to improve their public speaking and debate skills and to learn some parliamentary procedure, as well as how to learn how to work constructively in a group. Meetings are on Wednesdays, and there are 5 weekend conferences at various colleges throughout the Midwest.");
         }if(myItemSelected == "Movie Club"){
-            myTextView.setText("No description available, please contact Mrs. Sarcona for more information.");
+            myTextView.setText("No description available, please contact Mrs Sarcona for more information.");
         }if(myItemSelected == "Mu Alpha Theta"){
             myTextView.setText("Looking for a way to improve your math grades while taking part in a fun and popular math club? Mu Alpha Theta (Math) Club is a club for anyone interested in taking part in the quick, monthly International Math League as well as for anyone looking to test out their creative thinking skills in math! See Mr. Moser in Room 205 for more information.");
         }if(myItemSelected == "National Honor Society"){
@@ -213,28 +241,34 @@ public class ListScroll extends AppCompatActivity implements AdapterView.OnItemC
             myTextView.setText("We discuss life's biggest questions and try to find their answers. Depp discussions and food are always present, and everyone is welcome to respectfully share their opinions and learn about others' views for a variety of different topics chosen every week! Meetings are every Thursday from 3:30-4:30. Please contact Mrs. Carey for more information.");
         }if(myItemSelected == "Ping Pong Club"){
             myTextView.setText("No description available, please contact Mrs. Muniz-Peredo for more information.");
+        }if(myItemSelected == "Pokemon Go Club"){
+            myTextView.setText("Pokemon Go Club is for studetns to have fun, exercise, and catch Pokemon!.");
         }if(myItemSelected == "Project Green"){
             myTextView.setText("No description available, please contact Mr. Page for more information.");
         }if(myItemSelected == "Prom Committee"){
-            myTextView.setText("No description available, please contact Mrs. Dixon for more information.");
+            myTextView.setText("Prom committee  - As a member you will work as a team to plan key aspects of the prom.  Planning will focus around choosing favors, menu, decorations, and outside vendors that are hired.  Prom committee members will also work prior to get the word out regarding purchasing tickets.");
         }if(myItemSelected == "Psychology Club"){
             myTextView.setText("This group sponsors fun and engaging psychology-related activities for current and former Psychology students, as well as other students with an interest in the subject.");
         }if(myItemSelected == "Quiz Bowl"){
             myTextView.setText("Quiz Bowl is Jeopardy-type academic competition.  ZCHS competes against local teams and places first in our White River Academic League in 2014 and fourth-place in the state tournament.  A subset of the team participates on the Brain Game, sponsored by Westfield Insurance, which is televised locally by WTHR Channel 13.  ZCHS was a finalist in 2015, winning a $3,000 prize for the school.");
         }if(myItemSelected == "Robotics Club"){
-            myTextView.setText("Club members build and program robots to compete in events throughout the school year. Meetings are on Tuesdays and Thursdays.");
+            myTextView.setText("Club members build and prfogram robots to compete in events throughout the school year. Meetings are on Tuesdays and Thursdays.");
+        }if(myItemSelected == "Rock Climbing Club"){
+            myTextView.setText("Club participants meet at Hoosier Heights to climb together.");
         }if(myItemSelected == "Rugby"){
             myTextView.setText("No description available, please contact Mr. Shiller for more information.");
         }if(myItemSelected == "Sales, Entrepreneurship, and Leadership"){
             myTextView.setText("No description available, please contact Mr. Moser for more information.");
         }if(myItemSelected == "Science Club"){
             myTextView.setText("No description available, please contact Mrs. Bing for more information.");
+        }if(myItemSelected == "Songwriting and Music Making Club"){
+            myTextView.setText("A place for students to have the opportunity to create and write music, collaborate with other musicians, or just practice their musical skills.");
         }if(myItemSelected == "Spanish Club"){
             myTextView.setText("Spanish club is open to all students! Members do cultural activities, eat Spanish food, and more! Please contact Mr. Malle for more information..");
         }if(myItemSelected == "Spanish Cinema Club"){
             myTextView.setText("No description available, please contact Mrs. Muniz-Peredo for more information.");
         }if(myItemSelected == "Speech and Debate"){
-            myTextView.setText("No description available, please contact Mrs. Wilson or Mrs. Craven for more information.");
+            myTextView.setText("The ZCHS Speech and Debate Team is open to all students, grades 9-12. Our goal is to develop confident student speakers capable of competing at the local and state level. The practice schedule varies depending on the number of events and the level of the student's ability, but typically includes two per week. The Speech and Debate Team begins preparing in September and finishes competing in March. Tournaments take the entire day on Saturdays. ZCHS competes in approximately five regional tournaments and at State. We are members of the National Forensics League and the Indiana High School Forensics Association.");
         }if(myItemSelected == "Spring Play"){
             myTextView.setText("The spring play is an organized extracurricular activity, usually guided by a teacher and outside directors. It is extremely fun with everyone interacting, learning, acting, reacting, and growing as a group. This well-organized club always produces a great product from great group effort.");
         }if(myItemSelected == "Student Council"){
@@ -245,6 +279,8 @@ public class ListScroll extends AppCompatActivity implements AdapterView.OnItemC
             myTextView.setText("Zionsville Students for Life's main goal is to promote and protect life for everyone. We spread awareness about abortion and provide comfort for those in need. Our hope is to make a positive difference for the pro-life community in Zionsville.");
         }if(myItemSelected == "Swing Dance Club"){
             myTextView.setText("Students meet two Fridays a month in Mrs. Busick's room 411 and learn dances from the 1930's through the 1950's.  Please confirm specific meeting dates and times with the club sponsor.");
+        }if(myItemSelected == "Third World Initiative"){
+            myTextView.setText("A club for students to assist the remember Nhu foundation and other organizations that protect children from the sex trade.");
         }if(myItemSelected == "Timmy Club"){
             myTextView.setText("No description available, please contact Mrs. Bing for more information.");
         }if(myItemSelected == "Tri M Music Honor Society"){

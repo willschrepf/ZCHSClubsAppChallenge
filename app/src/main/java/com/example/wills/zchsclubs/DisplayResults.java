@@ -45,7 +45,7 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
 
 
         if(uv.ThreeDPrintingClub){
-            myData.add("The 3D Printing Club is open to all students interested in 3D printing! There is a $10 fee for materials and access to the printer. See Mr. Mulholland for more information.");
+            myData.add("3D Printing Club");
         }if(uv.AnimalRightsClub){
             myData.add("Animal Rights Club");
         }if(uv.AnimeMangaClub){
@@ -205,7 +205,7 @@ public class DisplayResults extends AppCompatActivity implements AdapterView.OnI
         View startResults = findViewById(R.id.startResults);
         startResults.setVisibility(View.INVISIBLE);
         if(myItemSelected == "3D Printing Club") {
-            myTextView.setText("No description available, please contact Mr. Mulholland for more information.");
+            myTextView.setText("The 3D Printing Club is open to all students interested in 3D printing! There is a $10 fee for materials and access to the printer. See Mr. Mulholland for more information.");
         }if(myItemSelected == "Animal Rights Club"){
             myTextView.setText("No description available, please contact Mrs. Carey for more information.");
         }if(myItemSelected == "Anime and Manga Club"){
